@@ -2,6 +2,7 @@
 public class Mascota {
 	
 	private String nombre;
+	private int patas;
 
 	public Mascota(String nombre) {
 		this.nombre = nombre;
@@ -17,7 +18,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre + " y te voy a contar algo o no");
+		System.out.println("Hola equipo! Soy xxxx y te voy a contar algo o no");
 	}
 
 }
